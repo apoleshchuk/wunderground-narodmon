@@ -7,3 +7,4 @@ services:
             - WEATHER_STATION_ID
             - NARODMON_USERNAME
             - NARODMON_PASSWORD
+        restart: unless-stopped
