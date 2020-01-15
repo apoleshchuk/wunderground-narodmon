@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "@apoleshchuk/wunderground-narodmon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "Anton Poleshchuk <anton@poleshchuk.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@apoleshchuk/tsconfig": "^1.0.0",
+    "@types/node": "^13.1.6",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "got": "^10.2.1",
+    "mqtt": "^3.0.0"
+  }
+}

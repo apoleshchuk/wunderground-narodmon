@@ -1,0 +1,9 @@
+version: "3"
+services:
+    wunderground_narodmon:
+        build: .
+        environment:
+            - WEATHER_API_KEY
+            - WEATHER_STATION_ID
+            - NARODMON_USERNAME
+            - NARODMON_PASSWORD

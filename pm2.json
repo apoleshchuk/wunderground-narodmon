@@ -1,0 +1,4 @@
+{
+    "name": "wunderground-narodmon",
+    "script": "dist/index.js"
+}

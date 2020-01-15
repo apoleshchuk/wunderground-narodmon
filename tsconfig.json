@@ -1,0 +1,13 @@
+{
+    "extends": "@apoleshchuk/tsconfig",
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "esnext", // Node.js 10
+        "lib": [
+            "esnext"
+        ],
+    },
+    "include": [
+        "src"
+    ]
+}
