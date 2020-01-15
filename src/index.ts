@@ -42,9 +42,9 @@ const update = async () => {
   const {
     humidity: H1,
     winddir: DEG,
-    metric: { windSpeed: KMH, temp: T1, pressure: P1 }
+    metric: { windSpeed: KMH, temp: T1, pressure: P1, precipRate: PRECIPE1 }
   } = await getWeatherData();
-  const message = { DEG, KMH, T1, P1, H1 };
+  const message = { DEG, KMH, T1, P1, H1, PRECIPE1 };
 
   console.log(new Date(), "weather", message);
   client.publish(jsonTopic, JSON.stringify(message));
